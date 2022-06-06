@@ -15,16 +15,16 @@ int main(void)
 		for (ones = tens + 1; ones <= 9; ones++)
 		{
 			putchar(tens + '0');
-			 putchar(ones + '0');
+			putchar(ones + '0');
 
-			  if (tens < 8) 
-			  {
-				  putchar(',');
-				   putchar(' ');
-			  }
+			if (tens < 8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
-	 putchar('\n');
+	putchar('\n');
 
- return (0);
+return (0);
 }
