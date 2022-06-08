@@ -1,12 +1,12 @@
-#include "main.h
+#include "main.h"
 
 /**
- *  _abs - gives the absolute value of an interger
+ * _abs - gives the absolute value of an interger
  *
  *
- * @n: input number as an integer.
+ *  @n: input number as an integer.
  *
- * Return: absolute value
+ *   Return: absolute value
  */
 int _abs(int n)
 {
@@ -19,3 +19,4 @@ int _abs(int n)
 		return (n * -1);
 	}
 }
+
