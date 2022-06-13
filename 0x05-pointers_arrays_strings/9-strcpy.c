@@ -1,24 +1,24 @@
-#include<stdio.h>
 #include "main.h"
+
 /**
- * _strcpy - update value.
- * @dest: value to be evaluated.
- * @src: value to be evaluated.
- * Return: not
+ * _strcpy - copies the string pointed to by src
+ * including the terminating null byte
+ * to the buffer pointed to by dest
+ * @dest: chaine of caractere
+ * @src: cahine caractere
+ *
+ * Return: dest
  */
+
 char *_strcpy(char *dest, char *src)
 {
-	int y = 0;
-	int x = 0;
+	int i = 0;
 
-	while (*(src + y) != '\0')
+	while (src[i] != '\0')
 	{
-		l++;
+		dest[i] = src[i];
+		i++;
 	}
-	for ( ; x < y ; x++)
-	{
-		dest[x] = src[x];
-	}
-	dest[y] = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
