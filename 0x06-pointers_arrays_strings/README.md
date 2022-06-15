@@ -1,1 +1,1 @@
-Edit code
+function that adds two numbers.
