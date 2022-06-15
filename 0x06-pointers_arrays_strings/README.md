@@ -1,1 +1,1 @@
-function that prints an integer.
+Edit code
