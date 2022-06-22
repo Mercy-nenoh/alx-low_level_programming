@@ -1,1 +1,1 @@
-function that prints a string in reverse.
+function that returns the natural square root of a number.
